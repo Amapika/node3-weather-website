@@ -21,11 +21,13 @@ h1{
     font-size: 64px;
     margin-bottom: 16px;
 }
-footer{
-    border-top: 100px  #eeeeee;
-    margin-top: 12px;
+footer {
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
     padding: 16px 0;
 }
+
 header a{
         color:#888888;
         margin-right: 16px;
