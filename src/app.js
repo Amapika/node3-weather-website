@@ -135,7 +135,7 @@ app.get('', (req,res)=>{
 //for app.com/help
 app.get('/help', (req, res) => {
     res.render('help', {
-        helpText: 'This is some helpful text.',
+        helpText: 'Search Any location you would get the current temperature along with the destination.',
         title:'Help Page',
         name:'Aman'
     })
