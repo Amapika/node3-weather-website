@@ -96,6 +96,9 @@
 
 
 */
+
+console.log("This is the main application code ")
+
 const geocode= require('./utils/geocode')
 const forecast=require('./utils/forecast')
 const path=require('path')//we gonna use inbuilt path module to make use of index.html in this file
