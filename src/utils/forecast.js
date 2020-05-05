@@ -14,7 +14,7 @@ const forecast=(latitude,longitude,callback)=>
         else
         {
          
-            callback(undefined,chalk.yellowBright('In:'+response.body.location.country+' It is currently:'+response.body.current.temperature+' degrees out but feels like:'+response.body.current.feelslike))
+            callback(undefined,'In:'+response.body.location.country+' It is currently:'+response.body.current.temperature+' degrees out but feels like:'+response.body.current.feelslike)
             
             
         }
