@@ -111,7 +111,7 @@ console.log(__filename)
 
 
 const app=express()
-
+const port=process.env.PORT || 3000
 //define the path 
 const publicDir=path.join(__dirname,'../public')
 const viewPath=path.join(__dirname,'../templates/views')
@@ -222,6 +222,9 @@ app.get('*',(req,res)=>{
         name:'Aman'
     })
 })
-app.listen(3000,(req,res)=>{
+/*app.listen(3000,(req,res)=>{
     console.log('Server Started')
+})*/
+app.listen(port,(req,res)=>{
+    console.log('Server Started'+port)
 })
