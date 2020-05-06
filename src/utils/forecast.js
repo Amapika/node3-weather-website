@@ -13,7 +13,7 @@ const forecast=(latitude,longitude,callback)=>
         else
         {
          
-            callback(undefined,'In:'+response.body.location.name+' It is currently:'+response.body.current.temperature+' degrees out but feels like:'+response.body.current.feelslike)
+            callback(undefined,' It is currently:'+response.body.current.temperature+' degrees out but feels like:'+response.body.current.feelslike)
             
             
         }
